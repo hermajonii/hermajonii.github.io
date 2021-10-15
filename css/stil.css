@@ -1,0 +1,229 @@
+.ruze{
+    background: url("../images/ruza5.jpg") no-repeat;
+    background-size: cover;
+    margin:0px;
+}
+nav{
+    padding-top: 2px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    opacity: 0.93;
+    transition: 0.5s;
+}
+nav:hover{
+    opacity: 1;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul a li{
+    display: inline-block;
+    background: black;
+    padding: 10px 20px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    font: 200 1.4em Impact, Charcoal, sans-serif;
+    box-shadow: 3px 3px 10px rgb(124, 29, 29), -3px -3px 5px rgb(99, 39, 39), 3px -3px 3px rgb(49, 8, 8);
+    transition: 0.5s;
+}
+nav ul li:hover:not(.trenutna){
+    animation: boja 2s ease-in-out;
+    color: black;
+    background-color: rgb(160, 39, 39);
+    border: 2px solid black;
+}
+@keyframes boja{
+    40%{background-color: rgb(255, 97, 97); }
+    100%{background-color: rgb(160, 39, 39);}
+}
+.trenutna{
+    color: black;
+    background-color: rgb(160, 39, 39);
+    border: 2px solid black;
+}
+.slika{
+    margin: auto;
+    width:20rem;
+    height:20rem;
+    background: url(../images/ja.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    transition-duration: 0.5s;
+    text-align: center;
+    border-radius:200px;
+    opacity: 0.8;
+    box-shadow: 3px 3px 10px rgb(95, 21, 21), -3px -3px 10px rgb(53, 31, 31), 3px -3px 10px rgb(124, 45, 45);
+}
+.slika:hover, .slikaPocetna:hover{
+    opacity: 1;
+    border-radius: 0px;
+} 
+#slika{
+    margin:0;
+    padding:5px  0;
+    position: absolute;
+    top:50%;
+    left:5%;
+    width:90%;
+    border-radius: 50px;
+    color: rgb(76, 138, 85);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    visibility: hidden;
+}
+.pocetna{
+    background-image: url("../images/ruza.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: right;
+}
+.pocetna li span{
+    color:rgb(160, 39, 39);
+    font-family: Impact, Charcoal, sans-serif;
+    vertical-align: middle;
+}
+.slikaPocetna{
+    background-image: url("../images/ja2.jpeg");
+    border-radius: 200px;
+    height: 20rem;
+    width: 20rem;
+    display: inline-block;
+    background-size: cover;
+    transition:0.5s;
+    opacity: 0.8;
+    box-shadow: 3px 3px 10px rgb(95, 21, 21), -3px -3px 10px rgb(53, 31, 31), 3px -3px 10px rgb(124, 45, 45);
+}
+.main{
+    margin-top: 20px;
+    color: white;
+    margin-left:5%;
+    margin-right:5%;
+}
+.tekst{
+    margin-bottom: 10px;
+    padding:5px;
+    background-color: black;
+    color: white;
+    opacity: 0.97;
+    transition: 0.5s;
+    box-shadow: 3px 3px 10px black, -3px -3px 10px black, 3px -3px 10px black;
+    font: normal 1.2em Arial;
+    line-height: 1.4;
+    padding: 4px 7px;
+    text-shadow: 1px 1px 5px black;
+}
+.tekst ul{
+    list-style-type:square;
+    color: rgb(160, 39, 39);
+    font-family: Impact, Charcoal, sans-serif; 
+    background-color: black;
+    box-shadow: 0px 5px 5px black;
+}
+.tekst ul li span{
+    color:white;
+    font: normal 0.9em Arial;
+
+}
+.tekst:hover{
+    opacity: 1;
+}
+.tekst h1{
+    margin-top:3px;
+    color: rgb(160, 39, 39);
+    text-align: center;
+    font: 100 1.8em Impact, Charcoal, sans-serif;
+    text-decoration: underline;
+    letter-spacing: 0.03em;
+    text-shadow: 2px 2px 2px rgb(14, 9, 9);
+}
+.tekst p::first-letter{
+    font-size: 170%;
+    font-family: serif;
+    font-weight: 900;
+    margin-left:3vmin;
+    margin-right:2px;
+}
+.tekst a{
+    color: rgb(197, 68, 68);
+}
+.tekst a:hover{
+    color: rgb(211, 150, 150);
+}
+.tekst a:active{
+    color: rgb(255, 102, 102);
+}
+.header{
+    font: 100 1.8em Impact, Charcoal, sans-serif;
+    letter-spacing: 0.03em;
+    color: rgb(160, 39, 39);
+    display: block !important;
+    padding:10px;
+}
+.liste > div{
+    color: rgb(160, 39, 39);
+    display: inline-block;
+    vertical-align: top;
+    width:33%;
+}
+.liste > div li span, .liste ul li span, .liste div div{
+    color:white;
+}
+a{
+    color: rgb(160, 39, 39);
+    text-decoration: none;  
+}
+.faded{
+    font-style: italic !important;
+    color: rgba(255,255,255,0.5) !important;
+}
+.footer{
+    border:2px solid black;
+    padding: 20px;
+    background-color: rgb(160, 39, 39);
+    line-height: 2;
+    color: white;
+    box-shadow: 3px 3px 10px rgb(36, 6, 6), -3px -3px 10px rgb(216, 119, 119), 3px -3px 10px rgb(58, 21, 21);
+}
+.footer p{
+    text-align: center;
+    font-style: oblique;
+    font-weight: 700;
+    color:rgba(0,0,0,0.5);
+}
+.footer a{
+    display: inline-block;
+    padding: 8px 20px;
+    margin: 5px;
+    color: black;
+    background-color: rgb(160, 39, 39);
+    border: 2px solid black;
+    font-weight: 900;
+    font-size:1.5rem;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.footer div{
+    text-align: center;
+}
+.footer a {
+    transition:0.5s;
+}
+.footer a:hover{
+    color: rgb(160, 39, 39);
+    background-color: white;
+}
+@media only screen and (max-width: 1220px){
+    .liste > div{
+        width:45%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .liste > div{
+        width:100%;
+    }
+}
