@@ -141,13 +141,7 @@ nav ul li:hover:not(.trenutna){
     letter-spacing: 0.03em;
     text-shadow: 2px 2px 2px rgb(14, 9, 9);
     background-color:  black;
-}
-.tekst p::first-letter{
-    font-size: 170%;
-    font-family: serif;
-    font-weight: 900;
-    margin-left:3vmin;
-    margin-right:2px;
+    font-weight: bold;
 }
 .tekst a{
     color: rgb(197, 68, 68);
