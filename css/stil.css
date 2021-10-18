@@ -114,7 +114,7 @@ nav ul li:hover:not(.trenutna){
     box-shadow: 3px 3px 10px black, -3px -3px 10px black, 3px -3px 10px black;
     font: normal 1.2em Arial;
     line-height: 1.4;
-    padding: 4px 7px;
+    padding: 4px 4px;
     text-shadow: 1px 1px 5px black;
 }
 .tekst ul{
