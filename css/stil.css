@@ -186,7 +186,7 @@ a{
 .faded{
     font-style: italic !important;
     color: rgba(255,255,255,0.5) !important;
-    font-size: 1em;
+    font-size: 1.1em;
 }
 .footer{
     border:2px solid black;
