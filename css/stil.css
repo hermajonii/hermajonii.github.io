@@ -25,7 +25,7 @@ nav ul a li{
     color: white;
     text-decoration: none;
     letter-spacing: 0.03em;
-    font: 200 1.4em Impact, Charcoal, sans-serif;
+    font: bold 1.4em Impact, Charcoal, sans-serif;
     box-shadow: 3px 3px 10px rgb(124, 29, 29), -3px -3px 5px rgb(99, 39, 39), 3px -3px 3px rgb(49, 8, 8);
     transition: 0.5s;
 }
