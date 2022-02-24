@@ -138,7 +138,7 @@ nav ul li:hover:not(.trenutna){
 }
 .tekst ul li span{
     color:white;
-    font-family: Arial;
+    font: normal 0.9em Arial;
 
 }
 .tekst:hover{
@@ -186,7 +186,7 @@ a{
 .faded{
     font-style: italic !important;
     color: rgba(255,255,255,0.5) !important;
-    font-size: 1.1em;
+    font-size: 1.1em !important;
 }
 .footer{
     border:2px solid black;
