@@ -87,6 +87,17 @@ nav ul li:hover:not(.trenutna){
     font-family: Impact, Charcoal, sans-serif;
     vertical-align: middle;
 }
+.pocetna div ul {
+    list-style-type:none;
+    vertical-align: center;
+}
+.pocetna div ul li{
+    line-height: 0;
+    vertical-align: middle;
+}
+.pocetna div ul li span{
+    display: inline-block;vertical-align: middle;
+}
 .slikaPocetna{
     background-image: url("../images/ja2.jpeg");
     border-radius: 200px;
