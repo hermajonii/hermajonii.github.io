@@ -92,7 +92,7 @@ nav ul li:hover:not(.trenutna){
     vertical-align: middle;
 }
 .pocetna div ul li{
-    line-height: 0;
+    line-height: 1;
     margin:3px;
 }
 .pocetna div ul li span{
