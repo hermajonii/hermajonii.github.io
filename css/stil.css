@@ -25,7 +25,7 @@ nav ul a li{
     color: white;
     text-decoration: none;
     letter-spacing: 0.03em;
-    font: normal 1.4em Impact, Bebas, sans-serif;
+    font: normal 1.4em Impact, "Rockwell Extra Bold", sans-serif;
     box-shadow: 3px 3px 10px rgb(124, 29, 29), -3px -3px 5px rgb(99, 39, 39), 3px -3px 3px rgb(49, 8, 8);
     transition: 0.5s;
 }
@@ -129,7 +129,7 @@ nav ul li:hover:not(.trenutna){
 .tekst ul{
     list-style-type:square;
     color: rgb(160, 39, 39);
-    font-family: Impact, League Gothic, sans-serif; 
+    font-family: Impact, "Rockwell Extra Bold", sans-serif; 
     background-color: black;
     box-shadow: 0px 5px 5px black;
 }
