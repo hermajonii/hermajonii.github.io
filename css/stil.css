@@ -1,6 +1,6 @@
 .ruze{
     background: url("../images/ruza5.jpg") no-repeat;
-    background-size: cover;
+    background-size: auto;
     margin:0px;
 }
 nav{
@@ -139,7 +139,6 @@ nav ul li:hover:not(.trenutna){
 .tekst ul li span{
     color:white;
     font: normal 0.9em Arial;
-
 }
 .tekst:hover{
     opacity: 1;
