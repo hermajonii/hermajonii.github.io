@@ -138,7 +138,7 @@ nav ul li:hover:not(.trenutna){
 }
 .tekst ul li span{
     color:white;
-    font: normal 0.9em Arial;
+    font-family: Arial;
 
 }
 .tekst:hover{
