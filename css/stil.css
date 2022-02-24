@@ -230,4 +230,7 @@ a{
     .liste > div{
         width:100%;
     }
+    .pocetna{
+        background-image: none;
+    }
 }
