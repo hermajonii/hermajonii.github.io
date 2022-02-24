@@ -182,7 +182,6 @@ a{
     text-decoration: none;  
 }
 .faded{
-    font-style: italic !important;
     color: rgba(255,255,255,0.5) !important;
     font-size: 1.1em !important;
 }
