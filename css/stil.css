@@ -96,6 +96,9 @@ nav ul li:hover:not(.trenutna){
     display: inline-block;
     vertical-align: middle;
 }
+div.pocetna:nth-child(2) > div:nth-child(2) > h1:nth-child(1){
+    font-family:  "Lobster", Charcoal, sans-serif;
+}
 .slikaPocetna{
     background-image: url("../images/ja2.jpeg");
     border-radius: 200px;
