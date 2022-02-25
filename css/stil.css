@@ -233,4 +233,7 @@ a{
     .pocetna{
         background-image: none;
     }
+    .slikaPocetna{
+        margin: 0 auto;
+    }
 }
