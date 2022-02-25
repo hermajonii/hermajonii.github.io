@@ -243,4 +243,7 @@ a{
         width:100%;
         text-align: center;
     }
+    div.tekst:nth-child(2) > div:nth-child(2){
+        display: block;
+    }
 }
