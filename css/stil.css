@@ -235,5 +235,6 @@ a{
     }
     .slikaPocetna{
         margin: 0 auto;
+        position: relative;
     }
 }
