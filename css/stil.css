@@ -237,4 +237,7 @@ a{
         margin: 0 auto;
         position: relative;
     }
+    .pocetna div h1{
+        text-align: center;
+    }
 }
