@@ -232,6 +232,7 @@ a{
     }
     .pocetna{
         background-image: none;
+        text-align: center;
     }
     .slikaPocetna{
         margin: 0 auto;
