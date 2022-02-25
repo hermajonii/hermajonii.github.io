@@ -236,8 +236,10 @@ a{
     .slikaPocetna{
         margin: 0 auto;
         position: relative;
+        display: inline-block;
     }
     .pocetna div h1{
+        width:100%;
         text-align: center;
     }
 }
