@@ -99,7 +99,7 @@ nav ul li:hover:not(.trenutna){
 div.pocetna:nth-child(2) > div:nth-child(2) > ul > li:nth-child(1){
     font-family:  "Lobster", Charcoal, sans-serif;
     margin-bottom: 5px;
-    font-size: 1.3em !important;
+    font-size: 1.4em !important;
 }
 .slikaPocetna{
     background-image: url("../images/ja2.jpeg");
@@ -187,7 +187,7 @@ a{
 .faded{
     font-weight:bold !important; 
     font-style:italic !important; 
-    color: rgba(255,255,255,0.5) !important;
+    color: rgba(255, 255, 255, 0.384) !important;
     font-size: 0.85em !important;
 }
 .footer{
