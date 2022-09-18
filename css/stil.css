@@ -286,6 +286,9 @@ body > div.tekst.pocetna.main > div:nth-child(2) ul{
         font-size:200%;
         text-align: center;
     }
+    #favourite i {
+        font-size:200%;
+    }
     .pocetna{
         text-align: center;
     }
