@@ -305,7 +305,7 @@ body > div.tekst.pocetna.main > div:nth-child(2) ul{
     .pocetna div ul{
         text-align: left;
     }
-    #favourite i,.liste > div{
+    .liste > div{
         width: 100%;
     }
 }
