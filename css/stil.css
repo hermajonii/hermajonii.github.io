@@ -48,7 +48,7 @@ nav ul li:hover:not(.trenutna){
     margin: auto;
     width:20rem;
     height:20rem;
-    background: url(../images/ja.jpg) no-repeat;
+    background: url(../images/ja2.jpg) no-repeat;
     background-size: cover;
     position: relative;
     transition-duration: 0.5s;
@@ -103,7 +103,7 @@ div.pocetna:nth-child(2) > div:nth-child(2) > ul > li:nth-child(1){
     font-size: 1.4em !important;
 }
 .slikaPocetna{
-    background-image: url("../images/ja2.jpeg");
+    background-image: url("../images/ja.jpg");
     border-radius: 200px;
     height: 20rem;
     width: 20rem;
